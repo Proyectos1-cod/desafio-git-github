@@ -114,10 +114,12 @@ body {
 }
 
 .main-text {
-    font-size: 18px;
-    line-height: 2.2;
-    margin: 20px 0;
+    font-size: 20px;
+    line-height: 2.4;
+    margin: 25px 0;
+    color: #444;
 }
+
 
 .course-details {
     font-weight: bold;
@@ -155,4 +157,13 @@ body {
     pointer-events: none;
     z-index: 0;
     user-select: none;
+}
+
+/* Nombre del certificado */
+.nombre-certificado {
+    color: var(--bg-blue);
+    font-size: 26px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    border-bottom: 3px solid var(--bg-blue);
 }
